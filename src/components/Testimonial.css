@@ -1,0 +1,46 @@
+.head h1{
+    color: rgb(6, 25, 75);
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.mycard{
+    width:90%;
+    margin:auto;
+}
+.mycard .card{
+    height:350px;
+    padding:10px 0px;
+   
+}
+.mycard .card Img{
+
+width:140px;
+height:140px;
+border-radius: 100px;
+
+
+}
+.mycard .card:hover{
+    transform:scale(1.1);
+    transition:0.6s;
+    box-shadow:8px 8px 8px 8px rgba(0 0 0 0.2);
+}
+.mycard .card h5{
+text-align: center;
+}
+.mycard .card p{
+    text-align: justify;
+    
+
+font-family: "Circular Regular", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-size: 15px;
+color:RGB(107, 114, 128);
+
+font-weight: 400;
+
+}
+.myimg{
+    display: flex;
+    justify-content: center;
+}

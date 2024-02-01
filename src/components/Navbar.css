@@ -1,0 +1,60 @@
+
+.logo span {
+   color: #09A0BA;
+   font-size:25px; 
+}
+.logo b{
+    color: #ffb545;
+    font-size:25px; 
+}
+.mynav{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #ADD8E6, #ADD8E6);
+ 
+}
+
+
+.mynav .center{
+color:red;
+
+}
+
+.mynav .sign{
+    background-color: #09A0BA;
+    border-radius: 20px;
+    color: white;
+    margin:0px 5px;
+}
+.mynav #log{
+    background-color: #EB4343;
+    padding:10px 30px;
+    }
+.mynav #signup{
+    padding:10px 30px;
+}
+.mynav #log:hover{
+    background-color: #ffb545;
+    color:white;
+    transform:scale(1.1);
+transition:0.6s;
+}
+.mynav #signup:hover{
+background-color:rgb(6, 25, 75) ;
+color:white;
+transform:scale(1.1);
+transition:0.6s;
+}
+
+.marq {
+    background-color:rgb(6, 25, 75) ;
+    color:white;
+    font-size:20px;
+}
+@media screen and (max-width:400px){
+    .mynav #log{
+        background-color: #EB4343;
+        padding:10px 15px;
+        }
+    .mynav #signup{
+        padding:10px 15px;
+    }
+}

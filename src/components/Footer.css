@@ -1,0 +1,123 @@
+footer
+{width: 100%;
+  margin-top :20px ;
+background-color:#01021e;
+margin-top:20px;
+}
+
+footer .myfoot{
+  display:flex;
+  gap:30px;
+  color:white;
+  width:90%;
+  margin: auto;
+  padding: 30px 0px;
+  justify-content: space-between;
+ 
+}
+footer .myfoot .col{
+  width:30%;
+}
+footer .myfoot h2{
+  
+
+font-family: "Playfair Display", serif;
+font-size: 22px;
+
+font-weight: 900;
+
+}
+
+footer .myfoot ul a{
+  text-decoration: none;
+  color: white;
+}
+footer .myfoot p{
+  
+text-align: justify;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+ 
+  font-weight: 300;
+  
+}
+footer .end2{
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;;
+}
+@media screen and (max-width:1000px) {
+    footer
+  {width: 100%;
+  background-color:#1a2f33;
+  margin-top:20px;
+  }
+  footer .myfoot{
+    display:block;
+    color:white;
+    width:90%;
+    margin: auto;
+    padding-top: 10px;
+    justify-content: space-between;
+   
+    
+  }
+  footer .myfoot .col{
+    width:100%;
+  }
+  footer .myfoot h2{
+    
+  
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  
+  font-weight: 900;
+  
+  }
+  
+  footer .myfoot ul a{
+    text-decoration: none;
+    color: white;
+  }
+  footer .myfoot p{
+    
+  text-align: justify;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+   
+    font-weight: 300;
+    
+  }
+  .end{
+    color: white;
+    text-align: center;
+  }
+  
+  }
+  @media screen and (max-width:600px){
+    footer .myfoot h2{
+  
+
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        
+        font-weight: 900;
+        
+        }
+        
+        footer .myfoot ul a{
+          text-decoration: none;
+          color: white;
+          font-size: 14px;;
+        }
+        footer .myfoot p{
+          
+        text-align: justify;
+          font-family: "Josefin Sans", sans-serif;
+          font-size: 10px;
+         
+          font-weight: 300;
+          
+        }
+
+  }
